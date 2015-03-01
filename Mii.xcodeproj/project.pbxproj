@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564B3DA61AA3117700A7505D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B3DA51AA3117700A7505D /* AppDelegate.swift */; };
+		564B3DA81AA3117700A7505D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B3DA71AA3117700A7505D /* ViewController.swift */; };
+		564B3DAA1AA3117700A7505D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B3DA91AA3117700A7505D /* Images.xcassets */; };
+		564B3DAD1AA3117700A7505D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B3DAB1AA3117700A7505D /* Main.storyboard */; };
+		564B3DB91AA3117700A7505D /* MiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B3DB81AA3117700A7505D /* MiiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564B3DB31AA3117700A7505D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564B3D981AA3117700A7505D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564B3D9F1AA3117700A7505D;
+			remoteInfo = Mii;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		564B3DA01AA3117700A7505D /* Mii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B3DA41AA3117700A7505D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B3DA51AA3117700A7505D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		564B3DA71AA3117700A7505D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		564B3DA91AA3117700A7505D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		564B3DAC1AA3117700A7505D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564B3DB21AA3117700A7505D /* MiiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B3DB71AA3117700A7505D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B3DB81AA3117700A7505D /* MiiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564B3D9D1AA3117700A7505D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B3DAF1AA3117700A7505D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564B3D971AA3117700A7505D = {
+			isa = PBXGroup;
+			children = (
+				564B3DA21AA3117700A7505D /* Mii */,
+				564B3DB51AA3117700A7505D /* MiiTests */,
+				564B3DA11AA3117700A7505D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564B3DA11AA3117700A7505D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564B3DA01AA3117700A7505D /* Mii.app */,
+				564B3DB21AA3117700A7505D /* MiiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564B3DA21AA3117700A7505D /* Mii */ = {
+			isa = PBXGroup;
+			children = (
+				564B3DA51AA3117700A7505D /* AppDelegate.swift */,
+				564B3DA71AA3117700A7505D /* ViewController.swift */,
+				564B3DA91AA3117700A7505D /* Images.xcassets */,
+				564B3DAB1AA3117700A7505D /* Main.storyboard */,
+				564B3DA31AA3117700A7505D /* Supporting Files */,
+			);
+			path = Mii;
+			sourceTree = "<group>";
+		};
+		564B3DA31AA3117700A7505D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564B3DA41AA3117700A7505D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564B3DB51AA3117700A7505D /* MiiTests */ = {
+			isa = PBXGroup;
+			children = (
+				564B3DB81AA3117700A7505D /* MiiTests.swift */,
+				564B3DB61AA3117700A7505D /* Supporting Files */,
+			);
+			path = MiiTests;
+			sourceTree = "<group>";
+		};
+		564B3DB61AA3117700A7505D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564B3DB71AA3117700A7505D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564B3D9F1AA3117700A7505D /* Mii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B3DBC1AA3117700A7505D /* Build configuration list for PBXNativeTarget "Mii" */;
+			buildPhases = (
+				564B3D9C1AA3117700A7505D /* Sources */,
+				564B3D9D1AA3117700A7505D /* Frameworks */,
+				564B3D9E1AA3117700A7505D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mii;
+			productName = Mii;
+			productReference = 564B3DA01AA3117700A7505D /* Mii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564B3DB11AA3117700A7505D /* MiiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B3DBF1AA3117700A7505D /* Build configuration list for PBXNativeTarget "MiiTests" */;
+			buildPhases = (
+				564B3DAE1AA3117700A7505D /* Sources */,
+				564B3DAF1AA3117700A7505D /* Frameworks */,
+				564B3DB01AA3117700A7505D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564B3DB41AA3117700A7505D /* PBXTargetDependency */,
+			);
+			name = MiiTests;
+			productName = MiiTests;
+			productReference = 564B3DB21AA3117700A7505D /* MiiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564B3D981AA3117700A7505D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = massimo;
+				TargetAttributes = {
+					564B3D9F1AA3117700A7505D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					564B3DB11AA3117700A7505D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 564B3D9F1AA3117700A7505D;
+					};
+				};
+			};
+			buildConfigurationList = 564B3D9B1AA3117700A7505D /* Build configuration list for PBXProject "Mii" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564B3D971AA3117700A7505D;
+			productRefGroup = 564B3DA11AA3117700A7505D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564B3D9F1AA3117700A7505D /* Mii */,
+				564B3DB11AA3117700A7505D /* MiiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564B3D9E1AA3117700A7505D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B3DAA1AA3117700A7505D /* Images.xcassets in Resources */,
+				564B3DAD1AA3117700A7505D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B3DB01AA3117700A7505D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564B3D9C1AA3117700A7505D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B3DA81AA3117700A7505D /* ViewController.swift in Sources */,
+				564B3DA61AA3117700A7505D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B3DAE1AA3117700A7505D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B3DB91AA3117700A7505D /* MiiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564B3DB41AA3117700A7505D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564B3D9F1AA3117700A7505D /* Mii */;
+			targetProxy = 564B3DB31AA3117700A7505D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564B3DAB1AA3117700A7505D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B3DAC1AA3117700A7505D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564B3DBA1AA3117700A7505D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		564B3DBB1AA3117700A7505D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		564B3DBD1AA3117700A7505D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		564B3DBE1AA3117700A7505D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		564B3DC01AA3117700A7505D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mii.app/Contents/MacOS/Mii";
+			};
+			name = Debug;
+		};
+		564B3DC11AA3117700A7505D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mii.app/Contents/MacOS/Mii";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564B3D9B1AA3117700A7505D /* Build configuration list for PBXProject "Mii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B3DBA1AA3117700A7505D /* Debug */,
+				564B3DBB1AA3117700A7505D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B3DBC1AA3117700A7505D /* Build configuration list for PBXNativeTarget "Mii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B3DBD1AA3117700A7505D /* Debug */,
+				564B3DBE1AA3117700A7505D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		564B3DBF1AA3117700A7505D /* Build configuration list for PBXNativeTarget "MiiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B3DC01AA3117700A7505D /* Debug */,
+				564B3DC11AA3117700A7505D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564B3D981AA3117700A7505D /* Project object */;
+}
