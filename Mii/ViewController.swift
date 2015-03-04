@@ -18,12 +18,13 @@ class ViewController: NSViewController {
     @IBOutlet var al:NSAlert!
     
     private var minifierService: MinifierService!
+    
+    private var nsPasteBoard: NSPasteboard!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         minifierService = MinifierService()
-
-        // Do any additional setup after loading the view.
+        nsPasteBoard = NSPasteboard.generalPasteboard()
     }
 
     override var representedObject: AnyObject? {
@@ -46,7 +47,7 @@ class ViewController: NSViewController {
         }
     }
     @IBAction func paste(sender: AnyObject) {
-        
+        originalTextView.string = nsPasteBoard.stringForType("public.utf8-plain-text")
     }
     
     @IBAction func copyResult(sender: AnyObject) {
@@ -57,7 +58,7 @@ class ViewController: NSViewController {
     }
     
     private func onMinifiedError(error:NSError) -> Void{
-
+        println(error.description)
     }
 }
 
