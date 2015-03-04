@@ -51,6 +51,9 @@ class ViewController: NSViewController {
     }
     
     @IBAction func copyResult(sender: AnyObject) {
+        var str:String = String(minifiedTextView.string!)
+        nsPasteBoard.clearContents()
+        nsPasteBoard.writeObjects([str])
     }
     
     private func onMinifiedSuccess(result:String) -> Void{
