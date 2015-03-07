@@ -43,7 +43,8 @@ class ViewController: NSViewController {
             al.runModal()
         }
         else{
-            minifierService.minifyCss(originalTextView.string!, success: onMinifiedSuccess, failure: onMinifiedError)
+            //minifierService.minifyCss(originalTextView.string!, success: onMinifiedSuccess, failure: onMinifiedError)
+            minifierService.minify(ContentType.CSS, content: originalTextView.string!, success: onMinifiedSuccess, failure: onMinifiedError)
         }
     }
     @IBAction func paste(sender: AnyObject) {
@@ -57,7 +58,9 @@ class ViewController: NSViewController {
     }
     
     private func onMinifiedSuccess(result:String) -> Void{
-        minifiedTextView.string = result
+        dispatch_async(dispatch_get_main_queue()){
+            self.minifiedTextView.string = result
+        }
     }
     
     private func onMinifiedError(error:NSError) -> Void{
