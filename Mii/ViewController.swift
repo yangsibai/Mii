@@ -43,7 +43,6 @@ class ViewController: NSViewController {
             al.runModal()
         }
         else{
-            //minifierService.minifyCss(originalTextView.string!, success: onMinifiedSuccess, failure: onMinifiedError)
             minifierService.minify(ContentType.CSS, content: originalTextView.string!, success: onMinifiedSuccess, failure: onMinifiedError)
         }
     }

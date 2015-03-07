@@ -33,20 +33,4 @@ class MinifierService{
                 failure(error)
         })
     }
-    
-    
-    func minifyCss(css:String, success:(String) -> Void, failure: (NSError) -> Void)-> Void{
-        var request = HTTPTask()
-        let params: Dictionary<String, AnyObject> = ["input": css]
-        
-        request.POST("http://cssminifier.com/raw", parameters: params, success: {(response: HTTPResponse) in
-            if let data = response.responseObject as? NSData{
-                let str = NSString(data: data, encoding: NSUTF8StringEncoding)
-                return success(str!)
-            }
-            success("")
-            },failure: {(error: NSError, response: HTTPResponse?) in
-            failure(error)
-        })
-    }
 }
