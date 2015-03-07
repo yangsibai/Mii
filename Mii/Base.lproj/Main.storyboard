@@ -773,11 +773,37 @@
                                     </connections>
                                 </buttonCell>
                             </button>
+                            <matrix verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S36-Sk-mdE">
+                                <rect key="frame" x="316" y="67" width="226" height="33"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                <size key="cellSize" width="88" height="18"/>
+                                <size key="intercellSpacing" width="4" height="2"/>
+                                <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="1bu-WK-lBL">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <cells>
+                                    <column>
+                                        <buttonCell type="radio" title="CSS" imagePosition="left" alignment="left" state="on" tag="1" inset="2" id="XeA-oz-7Qk">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </column>
+                                    <column>
+                                        <buttonCell type="radio" title="JavaScript" imagePosition="left" alignment="left" inset="2" id="ZrH-EL-qjh">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </column>
+                                </cells>
+                            </matrix>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="copyPushButton" destination="hxi-y9-fEu" id="yUC-H2-IyI"/>
                         <outlet property="copyResult" destination="Lnp-si-2Y2" id="Za1-QL-tCQ"/>
+                        <outlet property="cssRadioButton" destination="XeA-oz-7Qk" id="VLm-sJ-agx"/>
+                        <outlet property="jsRadioButton" destination="ZrH-EL-qjh" id="d3y-YE-AWq"/>
                         <outlet property="minifiedTextView" destination="zHn-XJ-v3r" id="tLA-a4-bFy"/>
                         <outlet property="minifyButton" destination="K1Z-fy-F43" id="9CI-t3-Kfu"/>
                         <outlet property="originalTextView" destination="lYJ-tV-22N" id="8eV-dB-ren"/>

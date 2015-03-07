@@ -14,6 +14,8 @@ class ViewController: NSViewController {
     @IBOutlet weak var pasteButton: NSButton!
     @IBOutlet var originalTextView: NSTextView!
     @IBOutlet var minifiedTextView: NSTextView!
+    @IBOutlet weak var cssRadioButton: NSButtonCell!
+    @IBOutlet weak var jsRadioButton: NSButtonCell!
     
     @IBOutlet var al:NSAlert!
     
@@ -43,7 +45,11 @@ class ViewController: NSViewController {
             al.runModal()
         }
         else{
-            minifierService.minify(ContentType.CSS, content: originalTextView.string!, success: onMinifiedSuccess, failure: onMinifiedError)
+            var minifyContentType: ContentType = ContentType.CSS
+            if(cssRadioButton.integerValue == 0){
+                minifyContentType = ContentType.JavaScript
+            }
+            minifierService.minify(minifyContentType, content: originalTextView.string!, success: onMinifiedSuccess, failure: onMinifiedError)
         }
     }
     @IBAction func paste(sender: AnyObject) {
