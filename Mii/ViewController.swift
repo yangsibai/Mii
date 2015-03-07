@@ -36,8 +36,9 @@ class ViewController: NSViewController {
     }
 
     @IBAction func minify(sender: AnyObject) {
+        minifiedTextView.string = ""
         if originalTextView.string == "" {
-            al = NSAlert();
+            al = NSAlert()
             al.informativeText = "请输入需要压缩的文本"
             al.messageText = "Error"
             al.showsHelp = false
